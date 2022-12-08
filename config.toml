@@ -1,0 +1,42 @@
+baseURL = 'https://boredom.is/'
+languageCode = 'en-gb'
+title = 'andrea rota'
+theme = 'cactus'
+
+[params]
+  colortheme = "light"
+  tagsOverview = true
+  mainSectionTitle = "Writing"
+  description = "I am Andrea Rota, father of two, husband of one, curious about many things. I am currently a software engineer at Vizzuality. My main areas of expertise are APIs, data engineering, infrastructure as code."
+
+[[params.social]]
+  name = "github"
+  link = "https://github.com/hotzeplotz"
+
+[[params.social]]
+  name = "email"
+  link = "a@mey.vn"
+
+[[params.social]]
+  name = "linkedin"
+  link = "https://www.linkedin.com/in/hotzeplotz/"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Writing"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
